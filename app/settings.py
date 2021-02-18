@@ -87,11 +87,10 @@ DATABASES = {
         "NAME": os.getenv("DB_NAME"),
         "HOST": os.getenv("DB_HOST"),
         "USER": os.getenv("DB_USER"),
-        "PORT": os.getenv("BB_PORT"),
+        "PORT": os.getenv("DB_PORT"),
         "PASSWORD": os.getenv("DB_PASS"),
     }
 }
-
 
 # Password validation
 # https://docs.djangoproject.com/en/3.1/ref/settings/#auth-password-validators
